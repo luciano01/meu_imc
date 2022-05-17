@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.luciano01develop.meu_imc">
    <application
-        android:label="meu_imc"
+        android:label="Meu IMC"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
