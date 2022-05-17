@@ -1,6 +1,7 @@
 import 'package:get/get.dart';
 
-import '../../features/meu-imc/presentation/pages/home/home.dart';
+import '../../features/features.dart';
+import '../bindings/bindings.dart';
 import '../core.dart';
 
 /// All pages
@@ -9,6 +10,7 @@ class AppPages {
     GetPage(
       name: Routes.home,
       page: () => const HomePage(),
+      binding: HomeBinding(),
     ),
   ];
 }

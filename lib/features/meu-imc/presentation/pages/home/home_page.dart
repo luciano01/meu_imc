@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
-class HomePage extends StatelessWidget {
+import '../../../../../core/controllers/controllers.dart';
+
+class HomePage extends GetView<HomeController> {
   const HomePage({Key? key}) : super(key: key);
 
   @override
